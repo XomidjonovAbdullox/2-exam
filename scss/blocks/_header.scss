@@ -1,0 +1,125 @@
+.header-top {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.header-top__adress {
+	position: relative;
+	margin-left: 220px;
+}
+.header-top__adress::before {
+    position: absolute;
+    width: 14px;
+    height: 13px;
+    background-image: url(../../images/house.svg);
+    background-repeat: no-repeat;
+    top: calc(7%);
+    left: calc(-9%);
+    content: "";
+}
+.adress__text {
+	margin: 0;
+	font-weight: 500;
+	font-size: 14px;
+	line-height: 18px;
+	display: flex;
+	align-items: center;
+	color: #333333;
+}
+.header-top__tel {
+	margin-left: 107px;
+	padding: 14px 0 10px;
+}
+.header-top__tel::before{
+    position: absolute;
+    width: 14px;
+    height: 13px;
+    background-image: url(../../images/phone.svg);
+    background-repeat: no-repeat;
+    top: 17px;
+    left: 642px;
+    content: "";
+}
+.header-top__tel + .header-top__tel::after{
+    position: absolute;
+    width: 14px;
+    height: 13px;
+    background-image: url(../../images/Ellipse.svg);
+    background-repeat: no-repeat;
+    top: calc(4.5%);
+    left: calc(42.3%);
+    content: "";
+}
+.tel__link {
+	text-decoration: none;
+	font-weight: 500;
+	font-size: 14px;
+	line-height: 18px;
+	color: #333333;
+}
+.tel__link:not(:first-child) {
+	padding-left: 22px;
+}
+.header-top__time {
+	display: flex;
+	margin-left: 99px;
+}
+.time__span {
+	display: flex;
+}
+.time__text {
+	font-weight: 500;
+	font-size: 14px;
+	line-height: 18px;
+	display: flex;
+	align-items: center;
+	color: #333333;
+}
+time {
+	font-weight: 500;
+	font-size: 14px;
+	line-height: 18px;
+	display: flex;
+	align-items: center;
+	color: #333333;
+}
+.time__span + .time__span {
+	padding-left: 17px;
+}
+.header {
+	background-color: #ffffff;
+	border: 1px solid #f3f3f3;
+}
+
+.header__inner {
+	padding: 20px 0;
+}
+.logo{
+    display: block;
+    position: absolute;
+    top: 26px;
+}
+
+.list {
+    margin-left: 300px;
+	margin: 0;
+	padding: 0;
+	display: flex;
+	align-items: center;
+    justify-content: end;
+	list-style-type: none;
+}
+
+.list__item  {
+	margin-left: 54px;
+}
+.list__item:nth-child(7){
+    margin-left: 195px;
+}
+.list__link {
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 21px;
+    text-decoration: none;
+	color: #333333;
+}

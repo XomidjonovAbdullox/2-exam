@@ -1,0 +1,68 @@
+.site-main{
+    flex-grow: 1;
+}
+.hero-section{
+    margin-bottom: 354px;
+    margin-top: 158px;
+    
+}
+.hero-section::before{
+    position: absolute;
+    width: 870px;
+    height: 835px;
+    background-image: url(../../images/cats.png);
+    background-repeat: no-repeat;
+    top: calc(2%);
+    left: calc(-12%);
+    z-index: 1;
+    content: "";
+}
+.hero-section::after{
+    position: absolute;
+    width: 870px;
+    height: 835px;
+    background-image: url(../../images/bird.png);
+    background-repeat: no-repeat;
+    top: 508px;
+    right: -630px;
+    content: "";
+}
+.hero {
+    margin-left: auto;
+	width: 100%;
+	max-width: 601px;
+}
+.hero__title {
+    padding-bottom: 29px;
+    margin: 0;
+	font-weight: 700;
+	font-size: 70px;
+	line-height: 91%;
+	color: #333333;
+}
+.hero__span {
+	color: #78c0de;
+}
+.hero__text {
+    padding-bottom: 38px;
+    margin: 0;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 131%;
+	color: #949494;
+}
+.hero__link {
+    display: block;
+	width: 100%;
+	padding: 16px;
+	max-width: 181px;
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 21px;
+    text-decoration: none;
+    text-align: center;
+
+	color: #ffffff;
+	background-color: #333333;
+	border-radius: 3px;
+}

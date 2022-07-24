@@ -1,0 +1,30 @@
+.box {
+	margin: 0 auto;
+	width: 915px;
+}
+.quote-sesction__inner::before {
+	position: absolute;
+	width: 140px;
+	height: 5px;
+}
+.box__blockquote {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-weight: 400;
+	font-size: 20px;
+	line-height: 26px;
+	text-align: center;
+	color: #949494;
+}
+.box__text {
+    display: flex;
+    margin: 0;
+    align-items: center;
+    justify-content: center;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 20px;
+	line-height: 26px;
+	color: #333333;
+}

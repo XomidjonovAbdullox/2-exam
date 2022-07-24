@@ -1,0 +1,47 @@
+.event-section {
+    position: relative;
+    margin-top: 235px;
+	background-image: url(../../images/Mask.jpg);
+	width: 100%;
+}
+.event-section::before{
+    position: absolute;
+    background: url(../../images/kisspng-dog-grooming-puppy-pet-veterinarian-dogs-5ab3e2fb839b14\ 1\ \(1\).png);
+    background-repeat: no-repeat;
+    top: -123px;
+    right: 43px;
+    width: 613px;
+    height: 481px;
+    content: "";
+}
+.event {
+	padding: 90px 0 88px 287px;
+}
+.event__box{
+    display: flex;
+}
+.event__title {
+    margin: 0;
+    margin-bottom: 42px;
+	font-weight: 700;
+	font-size: 48px;
+	line-height: 42%;
+	display: flex;
+	align-items: center;
+	color: #ffffff;
+}
+.event__input {
+    margin-right: 21px;
+	width: 100%;
+	max-width: 335px;
+	padding: 18px 0 12px 22px;
+	font-weight: 400;
+	font-size: 16px;
+	background-color: #ffffff;
+    border: 1px solid #fff;
+	border-radius: 5px;
+	line-height: 125%;
+	display: flex;
+	align-items: center;
+	color: #949494;
+}

@@ -1,0 +1,126 @@
+.our__title {
+	margin: 0;
+	margin-top: 190px;
+	margin-bottom: 80px;
+	font-weight: 700;
+	font-size: 48px;
+	line-height: 112%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+	color: #333333;
+}
+.our__list {
+	margin: 0;
+	display: flex;
+}
+.doctor {
+	padding-bottom: 90px;
+}
+.our__item {
+	padding: 35px 32px 10px 32px;
+	width: 100%;
+	max-width: 193px;
+	text-align: center;
+	list-style: none;
+	background: #ffffff;
+	border: 1px solid #f3f3f3;
+	border-radius: 5px;
+}
+.our__item + .our__item {
+	margin-left: 13px;
+}
+
+.our__item:nth-child(4) {
+	padding-top: 45px;
+}
+.our__item:nth-child(6) {
+	padding-top: 45px;
+}
+.our__text {
+	font-weight: 500;
+	font-size: 18px;
+	line-height: 122%;
+	display: flex;
+	align-items: center;
+	text-align: center;
+
+	color: #333333;
+}
+.inspection{
+    display: flex;
+    background-color: #fff;
+}
+.inspection__box-wrapper{
+    display: flex;
+    padding: 42px 105px 43px 35px;
+}
+.inspection__box{
+    padding-left: 67px;
+}
+.inspection__title {
+	font-weight: 500;
+	font-size: 36px;
+	line-height: 56%;
+	display: flex;
+	align-items: center;
+	color: #333333;
+}
+.inspection__text {
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 20px;
+	color: #949494;
+}
+.inspection__links{
+    display: flex;
+}
+.inspection__link {
+	display: block;
+	padding-left: 63px;
+	padding: 16px 0 16px 20px;
+	width: 100%;
+	max-width: 185px;
+	background-color: #ffbd54;
+	text-align: center;
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 21px;
+	color: #ffffff;
+	text-decoration: none;
+	border-radius: 3px;
+}
+.inspection__link::before {
+	position: absolute;
+	width: 21px;
+	height: 21px;
+	background-image: url(../../images/money.svg);
+	background-repeat: no-repeat;
+	left: 755px;
+	content: '';
+}
+.inspection__reception {
+    margin-left: 21px;
+    display: block;
+    padding: 15px 0 15px 20px;
+    width: 100%;
+    max-width: 241px;
+    text-align: center;
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 21px;
+	color: #ffffff;
+    text-decoration: none;
+	background-color: #333333;
+	border-radius: 3px;
+}
+.inspection__reception::before{
+    position: absolute;
+	width: 21px;
+	height: 21px;
+	background-image: url(../../images/document.svg);
+	background-repeat: no-repeat;
+	left: 955px;
+	content: '';
+}
